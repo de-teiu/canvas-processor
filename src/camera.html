@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <title>canvas画像処理サンプル - カメラ制御</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="canvasに対して何かしらの画像処理を行うサンプル" />
+    <meta name="author" content="DE-TEIU" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@de_teiu_tkg" />
+    <meta name="twitter:title" content="canvas画像処理サンプル - カメラ制御" />
+    <meta name="twitter:description" content="canvasに対して何かしらの画像処理を行うサンプル" />
+    <meta name="twitter:image" content="" />
+    <link rel="stylesheet" href="camera.css" />
+</head>
+
+<body>
+    <div class="container">
+        <video id="video" autoplay playsinline class="hidden"></video>
+        <div class="canvas-container">
+            <canvas id="baseCanvas" width="0" height="0"></canvas>
+            <canvas id="canvas" width="0" height="0"></canvas>
+        </div>
+    </div>
+    
+    <script src="./js/camera.js"></script>
+</body>
+
+</html>

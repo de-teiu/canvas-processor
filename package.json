@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/* -d public --host 192.168.3.8",
+    "dev": "parcel src/* -d public --https",
     "build": "parcel build src/* --no-source-maps --public-url ./"
   },
   "keywords": [],

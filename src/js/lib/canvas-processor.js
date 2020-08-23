@@ -117,7 +117,7 @@ CanvasProcessor.HSV2RGB = (h,s,v) => {
  * @returns {*} グレースケール値
  */
 CanvasProcessor.RGB2Gray = (r,g,b) =>{
-    return Math.round(0.2126 * r + 0.7152 * g + 0.0722 * b);
+    return Math.round(0.299 * r + 0.587 * g + 0.114 * b);
 };
 
 /**
